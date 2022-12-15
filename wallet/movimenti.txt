@@ -1,0 +1,6 @@
+2022-12-15;birretta;-4
+2022-12-15;riparazione hard disk;100
+2022-12-15;birretta con gli amici;-40
+2022-12-15;1as;123
+2022-12-15;2sa;-23
+2022-12-16;kaka;-100

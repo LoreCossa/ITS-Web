@@ -1,0 +1,106 @@
+#area-attiva{
+	width: 75%;
+	height: 100%;
+	margin-left: 12.5%;
+}
+
+#area-pulsanti{
+	width: 100%;
+	height: 10%;
+}
+
+.pulsante{
+	width: 10%;
+	height: 95%;
+	background-color: lightblue;
+	color: white;
+	font-size: 5em;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+#area-movimenti{
+	width: 100%;
+	height: 75%;
+	overflow-y: auto;
+}
+
+#area-inserimento{
+	width: 100%;
+	height: 14%;
+}
+
+.movimento{
+	width: 100%;
+	height: 10%;
+	font-size: 2em;
+}
+
+.uscita{
+	background-color: #f49898;
+}
+
+.entrata{
+	background-color: #82e082;
+}
+
+.giorno{
+	display: inline-block;
+	width: 20%;
+}
+
+.motivo{
+	display: inline-block;
+	width:64%;
+}
+
+.importo{
+	display: inline-block;
+	width:10%;
+}
+
+.valore{
+	font-weight: bold;
+	margin-right: 10%;
+}
+
+.nuovo-movimento{
+	background-color: lightgray;
+}
+
+.nuovo-giorno{
+	margin-right: 2%;
+	font-size:2em;
+}
+
+.nuovo-motivo{
+	width: 60%;
+	font-size:2em;
+}
+
+.nuovo-importo{
+	width: 15%;
+	font-size:2em;
+}
+
+#area-inserimento{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
