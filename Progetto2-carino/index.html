@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
+        <title>Comando dell'orto</title>
+        <meta charset="UTF-8">
+        <!-- Qui dentro posso scrivere tutto quello che voglio, tanto è un commento-->
+    </head>
+    <body>
+        <div id="messages-container">
+            <p id="messaggio" class="messaggio">   </p>
+           
+        </div>
+
+        <p>Area di attivazione</p>
+
+        <div id="button-container">
+            <div class="zone_button pulsante-on pulsante-off" id="Zona1">
+                Zona 1
+            </div>
+            <div class="zone_button  pulsante-on pulsante-off"  id="Zona2">
+                Zona 2
+            </div>
+            <div class="zone_button  pulsante-on pulsante-off"  id="Zona3">
+                Zona 3
+            </div>
+            <div class="zone_button  pulsante-on pulsante-off"  id="Zona4">
+                Zona 4
+            </div>
+            <div class="zone_button pulsante-on pulsante-off"   id="Zona5">
+                Zona 5
+            </div>
+            <div class="zone_button pulsante-on pulsante-off"  id="Zona6">
+                Zona 6
+            </div>
+            
+        </div>
+
+        <button type="button" onclick="aggiungiZona()" class="aggiungiZona">Aggiungi zona</button>
+        <button type="button" onclick="distruggiZona()" class="distruggiZona">Rimuovi Ultima zona</button>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+        <script type="text/javascript" src="./js/index.js"></script>
+       
+    </body>
+</html>

@@ -1,0 +1,15 @@
+/*
+elemento{
+    proprietà
+}
+*/
+
+body{
+    background-color: bisque;
+    font-family: Verdana;
+    color: black;
+    text-align: center; 
+}
+input{
+    border: 1px solid black;
+}

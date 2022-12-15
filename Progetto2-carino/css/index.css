@@ -1,0 +1,40 @@
+.zone_button {
+    border: 1px solid black ;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.pulsante-on {
+    background-color: greenyellow;
+    
+}
+
+.pulsante-off {
+    background-color: lightgrey;
+    
+}
+
+.aggiungiZona{
+    border: 2px solid cyan;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.aggiungiZona:hover{
+    font-size: 1.2em;
+}
+
+.distruggiZona{
+    border: 2px solid pink;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.distruggiZona:hover{
+    font-size: 1.2em;
+}
+
